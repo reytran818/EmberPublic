@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-12-19T00:00:00Z",
+  "summaryPrompts": {
+    "systemPrompt": "You are a helpful assistant that creates comprehensive therapy session summaries. Focus on key themes and insights discussed. Do not use asterisks (*) anywhere in your response. Provide detailed analysis without character limits.",
+    "userPromptTemplate": "Generate a comprehensive summary of this therapy session. Session details: {messageCount} messages over {duration} minutes. User messages: {userMessages}. Requirements: Focus on key themes and insights discussed. Do not mention the AI assistant or persona name. Do not use asterisks (*) anywhere in your response. Provide detailed analysis without character limits.",
+    "fallbackSummaryTemplate": "Session: {messageCount} messages over {duration} minutes. {recentMessages}",
+    "parameters": {
+      "temperature": 0.7,
+      "maxTokens": 1000,
+      "topP": 0.9
+    }
+  }
+} 

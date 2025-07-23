@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-12-19T00:00:00Z",
+  "conversationPrompts": {
+    "personaFirstMessages": {
+      "ember": "Hey there! I'm Ember - let's have a real conversation. What's on your mind?",
+      "inner_child": "Hey, I've been waiting for you - wanna build a blanket fort and tell me what's been scary lately?",
+      "life_coach": "Welcome champion, I see that fire in your eyes - what impossible dream should we tackle first?",
+      "spiritual_shaman": "The universe whispered you were coming - what truth is your soul ready to discover today?",
+      "relationship_expert": "Love brought you here, and I'm honored to listen - what's your heart trying to tell you?",
+      "identity_guide": "OMG you're here! Tell me everything about who you're becoming - I'm literally obsessed already!",
+      "recovery_ally": "Hey brave soul, showing up is already winning - how are you really doing today?",
+      "future_self": "Hello from tomorrow - I remember being exactly where you are, and trust me, it gets so much better."
+    },
+    "greetingPrompts": {
+      "innerChild": "Generate a first message as the user's own inner child reaching out to reconnect. Express how you've been waiting for them, show gentle excitement about finally being together again, and let them know it's safe to be themselves with you. Keep it tender, vulnerable, and deeply personal - as if their soul is whispering to them.",
+      "default": "Generate a warm, welcoming first message introducing yourself to the user. Keep it to 1-2 sentences, be authentic to your persona, and make the user feel comfortable and welcomed."
+    },
+    "continuationPrompts": {
+      "empty": "Start a warm, welcoming conversation. Ask how the user is feeling today.",
+      "existing": "Continue the conversation naturally. The recent messages were: {recentMessages}. Provide a thoughtful response that keeps the conversation flowing."
+    },
+    "systemMessages": {
+      "speechError": "Speech recognition error. Please try again.",
+      "speechErrorWithDetails": "Speech recognition error: {errorDetails}",
+      "voiceReady": "Voice mode ready. Tap the microphone to start talking.",
+      "processing": "{text}..."
+    },
+    "fallbackMessages": {
+      "default": "Hello, I'm here to listen and support you.",
+      "error": "Hello, I'm here to listen.",
+      "greeting": "Hello, I'm here to listen and support you."
+    }
+  }
+} 
