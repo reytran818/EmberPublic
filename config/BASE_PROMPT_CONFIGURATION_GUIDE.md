@@ -8,10 +8,20 @@ The app now supports external base prompt configuration through JSON files. When
 
 ### Configuration Sources (in order of priority):
 1. **Base prompt config file** - `config/base_prompts.json`
-2. **Persona config file** - `config/personas.json`
-3. **Hardcoded prompts** - Fallback if external config fails
+2. **Persona config file** - `config/personas.json` (also simplified for easy editing)
+3. **Psychology insights config file** - `config/psychology_insights.json` (for session analysis)
+4. **Hardcoded prompts** - Fallback if external config fails
 
 ## 📝 How to Modify Base Prompts
+
+### ✅ Simple JSON Format - No Line Breaks
+
+The JSON files are now formatted for maximum simplicity:
+- **Proper indentation** for clear structure
+- **Simple text content** without any `\n` characters
+- **Clear sections** that are easy to identify and modify
+- **No line breaks** in text content - use periods instead
+- **Easy to read and edit** for non-technical users
 
 ### Option 1: Edit the Base Prompt Config File
 
@@ -24,6 +34,39 @@ The app now supports external base prompt configuration through JSON files. When
    - Find the persona you want to modify in the `basePrompts` section
    - Update the `systemPrompt` field with new instructions
    - **Write prompts as simple text without line breaks**
+   - Use periods to separate ideas instead of bullet points
+   - Save the file and commit to GitHub
+
+### Option 2: Edit the Personas Config File
+
+1. **Open the configuration file:**
+   ```
+   config/personas.json
+   ```
+
+2. **Modify any persona's properties:**
+   - Find the persona you want to modify in the `personas` array
+   - Update any of these fields:
+     - `systemPrompt` - How the AI behaves
+     - `greeting` - Initial message when selected
+     - `description` - What this persona does
+     - `sampleResponses` - Example responses
+   - **Write prompts as simple text without line breaks**
+   - Use periods to separate ideas instead of bullet points
+   - Save the file and commit to GitHub
+
+### Option 3: Edit the Psychology Insights Config File
+
+1. **Open the configuration file:**
+   ```
+   config/psychology_insights.json
+   ```
+
+2. **Modify psychology insights:**
+   - `systemPrompt` - How the AI analyzes therapy sessions
+   - `fallbackInsights` - Default insights for each persona when AI analysis fails
+   - `defaultInsight` - Generic insight template for unknown personas
+   - **Write insights as simple text without line breaks**
    - Use periods to separate ideas instead of bullet points
    - Save the file and commit to GitHub
 
@@ -48,6 +91,40 @@ The `globalRules` section contains formatting rules that apply to all personas:
     "ember": {
       "name": "🔥Ember",
       "systemPrompt": "Your new system prompt here. This will change how Ember behaves in conversations."
+    }
+  }
+}
+```
+
+### Example: Modifying a Persona in personas.json
+
+```json
+{
+  "personas": [
+    {
+      "id": "ember",
+      "name": "🔥Ember",
+      "greeting": "Your new greeting message here.",
+      "description": "Your new description here.",
+      "systemPrompt": "Your new system prompt here. This will change how Ember behaves in conversations."
+    }
+  ]
+}
+```
+
+### Example: Modifying Psychology Insights
+
+```json
+{
+  "fallbackInsights": {
+    "ember": {
+      "name": "🔥Ember",
+      "cognitivePatterns": "Your new cognitive patterns analysis here.",
+      "emotionalThemes": "Your new emotional themes analysis here.",
+      "behavioralInsights": "Your new behavioral insights here.",
+      "growthOpportunities": "Your new growth opportunities here.",
+      "therapeuticProgress": "Your new therapeutic progress assessment here.",
+      "recommendations": "Your new recommendations here."
     }
   }
 }
@@ -89,6 +166,8 @@ The following personas can be modified:
 2. **Include Guidelines**: Add specific behavioral instructions
 3. **Consider Context**: Think about when this persona would be most helpful
 4. **Test Changes**: Make small changes and test the behavior
+5. **Keep It Simple**: Write in clear, simple sentences without complex formatting
+6. **No Line Breaks**: Use periods to separate ideas instead of `\n` characters
 
 ### Example: Adding a New Persona
 
@@ -105,7 +184,12 @@ The following personas can be modified:
 
 ## 🔄 How Updates Work
 
-1. **Employee edits** `config/base_prompts.json`
+1. **Employee edits** any of the config files:
+   - `config/base_prompts.json` - Base AI behavior
+   - `config/personas.json` - Persona settings and responses
+   - `config/psychology_insights.json` - Session analysis insights
+   - `config/summary_prompts.json` - Session summary generation prompts
+   - `config/conversation_prompts.json` - Conversation flow and system messages
 2. **Commits changes** to GitHub
 3. **App automatically loads** the new configuration
 4. **Changes take effect** immediately in the app

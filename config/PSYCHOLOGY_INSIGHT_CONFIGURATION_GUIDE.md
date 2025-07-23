@@ -12,6 +12,15 @@ The app now supports external psychology insight configuration through JSON file
 
 ## 📝 How to Modify Psychology Insights
 
+### ✅ Simple JSON Format - No Line Breaks
+
+The JSON files are now formatted for maximum simplicity:
+- **Proper indentation** for clear structure
+- **Simple text content** without any `\n` characters
+- **Clear sections** that are easy to identify and modify
+- **No line breaks** in text content - use periods instead
+- **Easy to read and edit** for non-technical users
+
 ### Option 1: Edit the Psychology Insights Config File
 
 1. **Open the configuration file:**
@@ -95,6 +104,8 @@ The following personas have customizable psychology insights:
 2. **Use Professional Language**: Maintain clinical accuracy while being accessible
 3. **Include Actionable Content**: Provide concrete recommendations
 4. **Consider Context**: Think about what each persona specializes in
+5. **Keep It Simple**: Write in clear, simple sentences without complex formatting
+6. **No Line Breaks**: Use periods to separate ideas instead of `\n` characters
 
 ### Example: Modifying Ember's Psychology Insight
 
