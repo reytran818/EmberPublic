@@ -14,8 +14,8 @@
       "order": 1
     },
     {
-      "id": "azure-guy",
-      "name": "Guy",
+      "id": "en-US-Ava:DragonHDLatestNeural",
+      "name": "Rey",
       "description": "Clear and professional male voice",
       "provider": "azure",
       "azureVoiceName": "en-US-Ava:DragonHDLatestNeural",
