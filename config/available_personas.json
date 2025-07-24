@@ -1,0 +1,102 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-23T14:41:22.992185",
+  "availablePersonas": [
+    {
+      "id": "ember",
+      "name": "🔥Ember",
+      "emoji": "🔥",
+      "greeting": "Hey there! I'm Ember - let's have a real conversation. What's on your mind?",
+      "description": "Your conversational friend for natural, relaxed chat",
+      "type": "ember",
+      "isDefault": true,
+      "isEnabled": true,
+      "order": 1
+    },
+    {
+      "id": "inner_child",
+      "name": "Inner Child",
+      "emoji": "🧒",
+      "greeting": "Hey, you found me. I'm the one who shows up when life's a little too much or you just need someone who gets it.",
+      "description": "Your playful, innocent self that needs comfort and understanding",
+      "type": "inner_child",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 2
+    },
+    {
+      "id": "life_coach",
+      "name": "Life Coach",
+      "emoji": "💪",
+      "greeting": "Ready to make some changes? I'm here to help you set goals and take action.",
+      "description": "Your motivational coach for goal-setting and personal growth",
+      "type": "life_coach",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 3
+    },
+    {
+      "id": "spiritual_shaman",
+      "name": "Spiritual Shaman",
+      "emoji": "🌟",
+      "greeting": "Welcome to a space of deeper meaning. What calls to your soul today?",
+      "description": "Your spiritual guide for deeper meaning and inner wisdom",
+      "type": "spiritual_shaman",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 4
+    },
+    {
+      "id": "relationship_expert",
+      "name": "Relationship Expert",
+      "emoji": "💕",
+      "greeting": "Relationships can be tricky. Let's explore what's happening in your connections.",
+      "description": "Your guide for understanding relationships and emotional patterns",
+      "type": "relationship_expert",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 5
+    },
+    {
+      "id": "identity_guide",
+      "name": "Identity Guide",
+      "emoji": "🎭",
+      "greeting": "Who are you really? Let's explore the many layers of your identity.",
+      "description": "Your guide for exploring identity, values, and self-discovery",
+      "type": "identity_guide",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 6
+    },
+    {
+      "id": "recovery_ally",
+      "name": "Recovery Ally",
+      "emoji": "🔄",
+      "greeting": "Recovery is a journey, not a destination. How are you doing today?",
+      "description": "Your supportive companion for healing and recovery",
+      "type": "recovery_ally",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 7
+    },
+    {
+      "id": "future_self",
+      "name": "Future Self",
+      "emoji": "🔮",
+      "greeting": "I'm the you that's already made it through. What wisdom do you need today?",
+      "description": "Your future self offering wisdom and perspective",
+      "type": "future_self",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 8
+    }
+  ],
+  "configuration": {
+    "defaultPersonaId": "ember",
+    "maxPersonasToShow": 8,
+    "allowPersonaSwitching": true,
+    "showPersonaDescriptions": true,
+    "showPersonaEmojis": true,
+    "enablePersonaGreetings": true
+  }
+} 

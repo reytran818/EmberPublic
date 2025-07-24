@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-23T14:41:22.992185",
+  "availableVoiceTypes": [
+    {
+      "id": "azure-jenny",
+      "name": "Jenny",
+      "description": "Warm and friendly female voice",
+      "provider": "azure",
+      "azureVoiceName": "en-US-JennyNeural",
+      "gender": "female",
+      "isDefault": true,
+      "isEnabled": true,
+      "order": 1
+    },
+    {
+      "id": "azure-guy",
+      "name": "Guy",
+      "description": "Clear and professional male voice",
+      "provider": "azure",
+      "azureVoiceName": "en-US-GuyNeural",
+      "gender": "male",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 2
+    },
+    {
+      "id": "azure-aria",
+      "name": "Aria",
+      "description": "Elegant and sophisticated female voice",
+      "provider": "azure",
+      "azureVoiceName": "en-US-AriaNeural",
+      "gender": "female",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 3
+    },
+    {
+      "id": "azure-davis",
+      "name": "Davis",
+      "description": "Confident and authoritative male voice",
+      "provider": "azure",
+      "azureVoiceName": "en-US-DavisNeural",
+      "gender": "male",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 4
+    },
+    {
+      "id": "azure-sara",
+      "name": "Sara",
+      "description": "Calm and nurturing female voice",
+      "provider": "azure",
+      "azureVoiceName": "en-US-SaraNeural",
+      "gender": "female",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 5
+    },
+    {
+      "id": "azure-tony",
+      "name": "Tony",
+      "description": "Energetic and enthusiastic male voice",
+      "provider": "azure",
+      "azureVoiceName": "en-US-TonyNeural",
+      "gender": "male",
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 6
+    }
+  ],
+  "availableVoiceSpeeds": [
+    {
+      "id": "slow",
+      "name": "Slow",
+      "description": "Relaxed pace for easy listening",
+      "rate": 0.8,
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 1
+    },
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Natural speaking pace",
+      "rate": 1.0,
+      "isDefault": true,
+      "isEnabled": true,
+      "order": 2
+    },
+    {
+      "id": "fast",
+      "name": "Fast",
+      "description": "Quick pace for efficient communication",
+      "rate": 1.2,
+      "isDefault": false,
+      "isEnabled": true,
+      "order": 3
+    }
+  ],
+  "configuration": {
+    "defaultVoiceTypeId": "azure-jenny",
+    "defaultVoiceSpeedId": "default",
+    "maxVoiceTypesToShow": 6,
+    "maxVoiceSpeedsToShow": 3,
+    "allowVoiceSwitching": true,
+    "showVoiceDescriptions": true,
+    "showVoiceGender": true,
+    "enableReadAloud": true,
+    "enableVoiceSpeedControl": true,
+    "defaultReadAloudEnabled": true
+  }
+} 
