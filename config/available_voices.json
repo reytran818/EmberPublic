@@ -4,10 +4,10 @@
   "availableVoiceTypes": [
     {
       "id": "azure-jenny",
-      "name": "Jenny",
+      "name": "Lani",
       "description": "Warm and friendly female voice",
       "provider": "azure",
-      "azureVoiceName": "en-US-JennyNeural",
+      "azureVoiceName": "en-US-Ava:DragonHDLatestNeural",
       "gender": "female",
       "isDefault": true,
       "isEnabled": true,
