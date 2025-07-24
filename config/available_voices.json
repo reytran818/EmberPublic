@@ -18,7 +18,7 @@
       "name": "Guy",
       "description": "Clear and professional male voice",
       "provider": "azure",
-      "azureVoiceName": "en-US-GuyNeural",
+      "azureVoiceName": "en-US-Ava:DragonHDLatestNeural",
       "gender": "male",
       "isDefault": false,
       "isEnabled": true,
