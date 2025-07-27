@@ -133,7 +133,7 @@ Use appropriate emojis for each persona:
 - 🔥 Ember (fire/energy)
 - 🧒 Inner Child (child/innocence)
 - 💪 Life Coach (strength/motivation)
-- 🌟 Spiritual Shaman (spirituality/wisdom)
+- 🔮 Spiritual Shaman (spirituality/wisdom)
 - 💕 Relationship Expert (love/relationships)
 - 🎭 Identity Guide (identity/self)
 - 🔄 Recovery Ally (recovery/healing)

@@ -38,7 +38,7 @@
     {
       "id": "spiritual_shaman",
       "name": "Spiritual Shaman",
-      "emoji": "🌟",
+      "emoji": "🔮",
       "greeting": "Welcome to a space of deeper meaning. What calls to your soul today?",
       "description": "Your spiritual guide for deeper meaning and inner wisdom",
       "type": "spiritual_shaman",
@@ -82,7 +82,7 @@
     {
       "id": "future_self",
       "name": "Future Self",
-      "emoji": "🔮",
+      "emoji": "✨",
       "greeting": "I'm the you that's already made it through. What wisdom do you need today?",
       "description": "Your future self offering wisdom and perspective",
       "type": "future_self",

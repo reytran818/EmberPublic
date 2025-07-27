@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-01-15T10:30:00Z",
+  "filters": [
+    "All",
+    "🔥Ember",
+    "🧒Inner Child",
+    "🚀Life Coach",
+    "🔮Spiritual Shaman",
+    "💕Relationship Expert",
+    "🌈Identity Guide",
+    "💪Recovery Ally",
+    "✨Future Self"
+  ],
+  "settings": {
+    "enableAnimations": true,
+    "enableScrollEffects": true,
+    "maxSessionsToShow": 100,
+    "enableSearch": true,
+    "enableSorting": true,
+    "defaultSortOrder": "newest",
+    "enableSessionGrouping": true,
+    "enableSessionStats": true
+  },
+  "display": {
+    "showPersonaEmojis": true,
+    "showMessageCount": true,
+    "showTimestamp": true,
+    "showSessionDuration": true,
+    "enableParallaxEffects": true,
+    "enableGradientBackgrounds": true,
+    "enableBlurEffects": true,
+    "enableHapticFeedback": true
+  },
+  "animations": {
+    "scrollAnimationDuration": 300,
+    "fadeAnimationDuration": 500,
+    "scaleAnimationDuration": 200,
+    "enableStaggeredAnimations": true,
+    "enableBounceEffects": false
+  },
+  "layout": {
+    "cardSpacing": 16.0,
+    "cardBorderRadius": 12.0,
+    "cardElevation": 4.0,
+    "enableCardShadows": true,
+    "enableRoundedCorners": true
+  },
+  "colors": {
+    "primaryBackground": "#2A0039",
+    "secondaryBackground": "#220031",
+    "cardBackground": "#1A0029",
+    "textPrimary": "#FFFFFF",
+    "textSecondary": "#CCCCCC",
+    "accentColor": "#9333EA"
+  },
+  "features": {
+    "enableSessionExport": false,
+    "enableSessionSharing": false,
+    "enableSessionBookmarking": true,
+    "enableSessionNotes": false,
+    "enableSessionTags": false
+  }
+} 
