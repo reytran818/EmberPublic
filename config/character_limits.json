@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-23T14:41:22.992185",
+  "characterLimits": {
+    "keyboard": {
+      "maxCharacters": 1500,
+      "warningThreshold": 100,
+      "criticalThreshold": 50,
+      "description": "Maximum characters for keyboard chat input",
+      "enforceWordBoundaries": true,
+      "enforceSentenceBoundaries": true
+    },
+    "voice": {
+      "maxCharacters": 250,
+      "maxSentences": 3,
+      "description": "Maximum characters for voice chat responses",
+      "enforceConciseMode": true,
+      "requireFollowUpQuestion": true
+    },
+    "display": {
+      "showCharacterCount": true,
+      "showWarningThreshold": true,
+      "showCriticalThreshold": true,
+      "colorCoding": true
+    }
+  },
+  "configuration": {
+    "allowDynamicLimits": true,
+    "enableCharacterCountDisplay": true,
+    "enableTruncation": true,
+    "enableWordBoundaryTruncation": true,
+    "enableSentenceBoundaryTruncation": true,
+    "defaultKeyboardLimit": 1500,
+    "defaultVoiceLimit": 250,
+    "maxKeyboardLimit": 5000,
+    "maxVoiceLimit": 1000,
+    "minKeyboardLimit": 100,
+    "minVoiceLimit": 50
+  }
+} 
