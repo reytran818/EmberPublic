@@ -28,7 +28,7 @@
       "description": "Google's 12B parameter model (Free)",
       "badge": "FREE",
       "badgeColor": "#10B981",
-      "openRouterId": "google/gemma-3-12b-it:free",
+      "openRouterId": "google/gemma-3-12b-it",
       "isDefault": false,
       "isEnabled": true
     },
@@ -38,7 +38,7 @@
       "description": "Google's 27B parameter model (Free)",
       "badge": "FREE+",
       "badgeColor": "#059669",
-      "openRouterId": "google/gemma-3-27b-it:free",
+      "openRouterId": "google/gemma-3-27b-it",
       "isDefault": false,
       "isEnabled": true
     },
@@ -54,11 +54,11 @@
     },
     {
       "id": "grok-3",
-      "title": "Grok-3",
-      "description": "X.AI's conversational and creative model",
-      "badge": "CREATIVE",
+      "title": "GPT-4o",
+      "description": "OPENAI's conversational and creative model",
+      "badge": "EMOTIONAL",
       "badgeColor": "#EF4444",
-      "openRouterId": "x-ai/grok-2-1212",
+      "openRouterId": "openai/chatgpt-4o-latest",
       "isDefault": false,
       "isEnabled": true
     }
