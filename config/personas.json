@@ -40,8 +40,8 @@
     "maxTokens": 500
       ],
       "voiceConfig": {
-        "primaryVoice": "en-US-AvaNeural",
-        "fallbackVoice": "en-US-JennyMultilingualNeural",
+        "primaryVoice": "en-US-Ava:DragonHDLatestNeural",
+        "fallbackVoice": "en-US-Ava:DragonHDLatestNeural",
         "style": "friendly",
         "pitch": 1.0,
         "rate": 1.0
