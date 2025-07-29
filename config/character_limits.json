@@ -3,7 +3,7 @@
   "lastUpdated": "2025-01-23T14:41:22.992185",
   "characterLimits": {
     "keyboard": {
-      "maxCharacters": 1500,
+      "maxCharacters": 1000,
       "warningThreshold": 100,
       "criticalThreshold": 50,
       "description": "Maximum characters for keyboard chat input",
