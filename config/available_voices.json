@@ -51,7 +51,7 @@
       "name": "Onyx",
       "description": "Multilingual male voice with HD quality",
       "provider": "azure",
-      "azureVoiceName": "en-US-OnyxTurboMultilingualNeural",
+      "azureVoiceName": "en-US-OnyxMultilingualNeuralHD",
       "gender": "male",
       "isDefault": false,
       "isEnabled": true,

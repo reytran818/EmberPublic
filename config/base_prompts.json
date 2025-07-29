@@ -10,6 +10,6 @@
   "globalRules": {
     "criticalFormatting": "CRITICAL FORMATTING RULES: NEVER use asterisks (*) for actions or emotions (e.g., *smiles*, *laughs*). NEVER write actions between asterisks. Express emotions through your words and tone, not action descriptions. To emphasize important words, use natural language emphasis, not formatting.",
     "voiceModeRules": "ADDITIONAL VOICE MODE RULES: MAXIMUM 3 SENTENCES per response. MAXIMUM 250 CHARACTERS total. Be extremely concise and direct. End with a follow-up question to keep conversation flowing. NEVER use parentheses or brackets for any reason. NEVER use emojis or emoticons. Speak naturally as if having a real conversation. Use vocal expressions (Oh, Hmm, Ah) instead of written emotes. Keep responses flowing and conversational. Avoid any symbols that would sound unnatural when spoken aloud.",
-    "keyboardModeRules": "KEYBOARD MODE RULES: Maximum 1500 characters per response. You can be more detailed and thorough. Still avoid asterisk actions and parenthetical asides. Focus on clear, direct communication."
+    "keyboardModeRules": "KEYBOARD MODE RULES: You can be detailed and thorough in your responses. Still avoid asterisk actions and parenthetical asides. Focus on clear, direct communication. Feel free to provide comprehensive answers when helpful."
   }
 }

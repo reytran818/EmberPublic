@@ -9,8 +9,8 @@
       "badge": "POWERFUL",
       "badgeColor": "#9333EA",
       "openRouterId": "moonshotai/kimi-k2",
-      "isDefault": true,
-      "isEnabled": true
+      "isDefault": false,
+      "isEnabled": false
     },
     {
       "id": "gpt-4o-mini",
@@ -20,7 +20,7 @@
       "badgeColor": "#0EA5E9",
       "openRouterId": "openai/gpt-4o-mini",
       "isDefault": false,
-      "isEnabled": true
+      "isEnabled": false
     },
     {
       "id": "gemma-3",
@@ -30,16 +30,16 @@
       "badgeColor": "#10B981",
       "openRouterId": "google/gemma-3-12b-it:free",
       "isDefault": false,
-      "isEnabled": true
+      "isEnabled": false
     },
     {
       "id": "gemma-3n",
-      "title": "Gemma-3N",
-      "description": "Google's 27B parameter model (Free)",
-      "badge": "FREE+",
+      "title": "Gemma-3 27B",
+      "description": "Google's 27B parameter model (Paid)",
+      "badge": "PREMIUM",
       "badgeColor": "#059669",
-      "openRouterId": "google/gemma-3-27b-it:free",
-      "isDefault": false,
+      "openRouterId": "google/gemma-3-27b-it",
+      "isDefault": true,
       "isEnabled": true
     },
     {
@@ -50,7 +50,7 @@
       "badgeColor": "#8B5CF6",
       "openRouterId": "deepseek/deepseek-r1",
       "isDefault": false,
-      "isEnabled": true
+      "isEnabled": false
     },
     {
       "id": "grok-3",
@@ -60,14 +60,14 @@
       "badgeColor": "#EF4444",
       "openRouterId": "x-ai/grok-2-1212",
       "isDefault": false,
-      "isEnabled": true
+      "isEnabled": false
     }
   ],
   "configuration": {
-    "defaultModelId": "kimi-k2",
-    "maxModelsToShow": 6,
-    "allowModelSwitching": true,
-    "showModelDescriptions": true,
-    "showModelBadges": true
+    "defaultModelId": "gemma-3n",
+    "maxModelsToShow": 1,
+    "allowModelSwitching": false,
+    "showModelDescriptions": false,
+    "showModelBadges": false
   }
 } 
