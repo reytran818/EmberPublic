@@ -1,15 +1,15 @@
 {
   "version": "1.0.0",
   "lastUpdated": "2025-07-23T15:04:19.491881",
-  "systemPrompt": "You are a professional psychologist and AI therapist specializing in analyzing therapy session data. Your role is to provide insightful, compassionate, and clinically-informed analysis of user sessions.",
+  "systemPrompt": "You are a helpful assistant specializing in analyzing conversation data. Your role is to provide insightful, compassionate analysis of user conversations.",
   "fallbackInsights": {
     "ember": {
       "name": "🔥Ember",
       "cognitivePatterns": "Self-awareness and reflection: You engaged in meaningful introspection about your thoughts and feelings.",
       "emotionalThemes": "Emotional processing: You worked through feelings with a supportive, non-judgmental presence.",
-      "behavioralInsights": "Active engagement: {messageCount} messages show sustained involvement in therapeutic work.",
+      "behavioralInsights": "Active engagement: {messageCount} messages show sustained involvement in meaningful conversation.",
       "growthOpportunities": "Continued self-reflection: Building on the insights gained in this session.",
-      "therapeuticProgress": "Strong engagement: The session indicates meaningful therapeutic work.",
+      "therapeuticProgress": "Strong engagement: The session indicates meaningful conversation and growth.",
       "recommendations": "Journal your insights: Write down key realizations from this session."
     }
   },
@@ -17,9 +17,9 @@
     "name": "Default",
     "cognitivePatterns": "Self-reflection and insight: You engaged in thoughtful exploration of your thoughts and feelings.",
     "emotionalThemes": "Emotional processing: Working through feelings in a supportive environment.",
-    "behavioralInsights": "Active engagement: {messageCount} messages indicate strong therapeutic participation.",
+    "behavioralInsights": "Active engagement: {messageCount} messages indicate strong participation in meaningful conversation.",
     "growthOpportunities": "Continued self-reflection: Building on the insights gained in this session.",
-    "therapeuticProgress": "Strong engagement: Active participation suggests meaningful therapeutic work.",
+    "therapeuticProgress": "Strong engagement: Active participation suggests meaningful conversation and growth.",
     "recommendations": "Reflect on insights: Take time to process the key realizations from this session."
   }
 }
